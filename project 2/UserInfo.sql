@@ -1,0 +1,12 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE UserInfo (first_name text, last_name text, home text);
+INSERT INTO UserInfo VALUES('Rose','Tyler','Earth');
+INSERT INTO UserInfo VALUES('Zoe','Heriot','Space Station w3');
+INSERT INTO UserInfo VALUES('Jo','Grant','null');
+INSERT INTO UserInfo VALUES('Leela','null','unspecified');
+INSERT INTO UserInfo VALUES('Romana','null','Gallifrey');
+INSERT INTO UserInfo VALUES('Clara','Oswald','Earth');
+INSERT INTO UserInfo VALUES('Adric','null','Alzarius');
+INSERT INTO UserInfo VALUES('Susan','Foreman','Gallifrey');
+COMMIT;

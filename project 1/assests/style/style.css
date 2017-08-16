@@ -1,0 +1,47 @@
+body{
+background: #e1eec3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+	padding: 10px 20px;
+	margin: 0;
+	background: #FF6347;
+	color: white;
+	text-align: center;
+
+}
+
+#table{
+	
+	width: 400px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0,0,0, 1);
+	
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+	margin: 100px auto;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+tr{
+	height: 20px;
+	line-height: 30px;
+	background: #FFFFFF;
+	text-align: center;
+}
+
+tr:nth-child(2n)
+{
+	background: #DCDCDC;
+}
+
+

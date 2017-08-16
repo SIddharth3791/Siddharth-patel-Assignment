@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Data Table</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assests/style/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+</head>
+<body>
+<!-- Used AngujarJS filter-->
+<div ng-app="myApp" ng-controller="UserController" id="table">
+
+	<h1>Name and Address</h1>
+
+	<table >
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Home</th>
+		</tr>
+		<tr ng-repeat="data in table_data | orderBy:myOrderBy">
+			<td>{{data.first_name || 'N\A'}}</td>
+			<td>{{data.last_name || 'N\A'}}</td>
+			<td>{{data.home ||'N\A'}}</td>
+
+		</tr>
+	</table>
+
+</div>
+
+<script type="text/javascript" src="assests/script/tableData.js"></script>
+</body>
+</html>

@@ -9,7 +9,7 @@ angular.module('myApp', []).controller('UserController', function($scope) {
                    { first_name : 'Adric', last_name  : null, home : 'Alzarius'},
                    { first_name : 'Susan', last_name  : 'Foreman', home : 'Gallifrey'} ];
 
-    $scope.orderByMe = function(x) {
-        $scope.myOrderBy = x;
+    $scope.orderByData = function(x) {
+        $scope.myOrderData = x;
     }
 });

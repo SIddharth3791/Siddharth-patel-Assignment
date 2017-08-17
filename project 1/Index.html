@@ -18,7 +18,7 @@
 			<th>Last Name</th>
 			<th>Home</th>
 		</tr>
-		<tr ng-repeat="data in table_data | orderBy:myOrderBy">
+		<tr ng-repeat="data in table_data">
 			<td>{{data.first_name || 'N\A'}}</td>
 			<td>{{data.last_name || 'N\A'}}</td>
 			<td>{{data.home ||'N\A'}}</td>

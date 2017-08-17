@@ -1,4 +1,3 @@
-
 angular.module('myApp', []).controller('UserController', function($scope) {
     $scope.table_data =  [ { first_name : 'Rose', last_name : 'Tyler', home : 'Earth' },
                    { first_name : 'Zoe', last_name  : 'Heriot', home : 'Space Station W3'},
@@ -8,8 +7,4 @@ angular.module('myApp', []).controller('UserController', function($scope) {
                    { first_name : 'Clara', last_name  : 'Oswald', home : 'Earth'},
                    { first_name : 'Adric', last_name  : null, home : 'Alzarius'},
                    { first_name : 'Susan', last_name  : 'Foreman', home : 'Gallifrey'} ];
-
-    $scope.orderByData = function(x) {
-        $scope.myOrderData = x;
-    }
 });
